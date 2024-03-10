@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nathanfarr89/office-closet-drawer-organized/static/css/main.98bcbce8.css",
-    "main.js": "/nathanfarr89/office-closet-drawer-organized/static/js/main.08e16f16.js",
-    "static/js/453.80f3a68a.chunk.js": "/nathanfarr89/office-closet-drawer-organized/static/js/453.80f3a68a.chunk.js",
-    "index.html": "/nathanfarr89/office-closet-drawer-organized/index.html",
-    "main.98bcbce8.css.map": "/nathanfarr89/office-closet-drawer-organized/static/css/main.98bcbce8.css.map",
-    "main.08e16f16.js.map": "/nathanfarr89/office-closet-drawer-organized/static/js/main.08e16f16.js.map",
-    "453.80f3a68a.chunk.js.map": "/nathanfarr89/office-closet-drawer-organized/static/js/453.80f3a68a.chunk.js.map"
+    "main.css": "/office-closet-drawer-organized/static/css/main.98bcbce8.css",
+    "main.js": "/office-closet-drawer-organized/static/js/main.94edb586.js",
+    "static/js/453.80f3a68a.chunk.js": "/office-closet-drawer-organized/static/js/453.80f3a68a.chunk.js",
+    "index.html": "/office-closet-drawer-organized/index.html",
+    "main.98bcbce8.css.map": "/office-closet-drawer-organized/static/css/main.98bcbce8.css.map",
+    "main.94edb586.js.map": "/office-closet-drawer-organized/static/js/main.94edb586.js.map",
+    "453.80f3a68a.chunk.js.map": "/office-closet-drawer-organized/static/js/453.80f3a68a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98bcbce8.css",
-    "static/js/main.08e16f16.js"
+    "static/js/main.94edb586.js"
   ]
 }
