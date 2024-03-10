@@ -1,22 +1,13 @@
 // Modal.js
 import React, { useState, useEffect } from "react";
+import { data } from "../assets/data";
 import "./modal.css";
 
 function SearchModal({ onClose, searchQuery, setSearchQuery }) {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("data.json");
-        const data = await response.json();
-        setItems(data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-
-    fetchData();
+    setItems(data);
   }, []);
 
   const filteredItems = items.filter((item) =>

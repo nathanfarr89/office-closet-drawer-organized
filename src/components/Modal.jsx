@@ -1,25 +1,16 @@
 // Modal.js
 import React, { useState, useEffect } from "react";
+import { data } from "../assets/data";
 import "./modal.css";
 
 function Modal({ onClose, buttonIndex }) {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("data.json");
-        const data = await response.json();
-        const filteredItems = data.filter(
-          (item) => item.buttonIndex === buttonIndex + 1
-        );
-        setItems(filteredItems);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-
-    fetchData();
+    const filteredItems = data.filter(
+      (item) => item.buttonIndex === buttonIndex + 1
+    );
+    setItems(filteredItems);
   }, [buttonIndex]);
 
   return (
