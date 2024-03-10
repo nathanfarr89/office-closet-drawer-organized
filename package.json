@@ -2,7 +2,7 @@
   "name": "trinket-drawers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/nathanfarr89/office-closet-drawer-organized",
+  "homepage": "https://nathanfarr89.github.io/office-closet-drawer-organized",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
